@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -69,6 +70,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# StyleBot
+"StyleBot" is a fashion chatbot web application built using React, Chakra UI, and OpenAI. It allows users to ask fashion-related questions and receive relevant style advice. 
+>>>>>>> 28f8bc931264824a4108deeaf4c6d45a53ee0e1f
 =======
 # StyleBot
 "StyleBot" is a fashion chatbot web application built using React, Chakra UI, and OpenAI. It allows users to ask fashion-related questions and receive relevant style advice. 
