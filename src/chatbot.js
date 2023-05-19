@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Box, Flex, Image, Text, Button, Textarea} from '@chakra-ui/react';
 import crown from './images/chatbox-icon.svg';
+import bot from './images/unsplash_khHs6rdee7I (2).svg'
 import theme from './theme';
 
 const Chatbot = () => {
@@ -41,10 +42,10 @@ const Chatbot = () => {
       // bg="#F1F1F1"
     >
       <Flex direction="column" position={'absolute'} bottom={60} right={20} bg="#eeef5f3cff5eeba" width={300} height={430} zIndex="-123456" opacity={isOpen ? 1 : 0} transition="all .5s ease-in-out">
-        <Flex borderTopRadius ={20} alignItems="center" justifyContent="center" bg= {theme.gradients.brandopp} py={15}>
-          <Image src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="User" marginRight={20} />
+        <Flex borderTopRadius ={20} alignItems="center" justifyContent="normal" bg= {theme.gradients.brandopp} py={15}>
+          <Image src={bot} alt="User" ml={10} marginRight={55} />
           <Flex direction="column">
-            <Text fontSize="1.2rem" color="white">Gina's StyleBOT</Text>
+            <Text fontSize="1.2rem" fontWeight={'500'} color="white">StyleBOT</Text>
             {/* <Text fontSize=".9rem" color="white">Hi. My name is Gyna. I am you Fashion Assistant?</Text> */}
           </Flex>
         </Flex>
